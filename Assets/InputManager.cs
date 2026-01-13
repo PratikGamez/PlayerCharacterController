@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour
 {
 
     public Vector2 playerMoveDir {get; private set;}
+    public bool jumpInput { get; private set;}
 
     private PlayerControl inputActions;
 
@@ -28,7 +29,13 @@ public class InputManager : MonoBehaviour
     {
         if(callbackContext.performed)
         {
+
+            jumpInput = true;
          Debug.Log("Jumped");             
+        }
+        if(callbackContext.canceled)
+        {
+           jumpInput = false; 
         }
     }
 }
