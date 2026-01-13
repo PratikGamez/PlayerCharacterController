@@ -653,7 +653,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdacd62024650194ba5ff0ed39ac6aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharacterController
+<<<<<<< Updated upstream
   mainCamera: {fileID: 0}
+=======
+  mainCamera: {fileID: 330585546}
+>>>>>>> Stashed changes
   walkSpeed: 5
   turingSpeed: 1
 --- !u!1 &832575517
