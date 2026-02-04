@@ -34,7 +34,7 @@ public class PlayerCharacterController : MonoBehaviour
        jumpInput = inputManager.jumpInput;
 
         GetInput();
-        GroundMovement();
+        Movement();
     }
 
     private void Movement()
